@@ -59,15 +59,38 @@ margin-left: 23rem;
   margin: 3rem 0;
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 }
-.images {
+.images, .paper {
   display: flex;
+  flex-direction: column;
   padding: 0 3rem;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+  .images img{
+  width: 5rem;
+  height: auto;
+}
+.paper img {
   width: 3.5rem;
   height: auto;
-  position: relative;
+
 }
+ .images p{
+  text-align: center;
+  width: 5rem;
+  margin-top: 3rem;
+  line-height: 1.4;
+}
+.paper p{
+text-align: center;
+width: 6rem;
+margin-top: 1rem;
+line-height: 1.4;
+}
+
 
 .contact h3 {
   width: 10rem;
@@ -85,6 +108,7 @@ margin-left: 23rem;
 .blurb {
   width: 35%;
   margin:0 2.5%;
+  line-height: 1.4;
 }
 .footer {
   background-color: azure;
@@ -92,6 +116,7 @@ margin-left: 23rem;
   margin-top: 5rem;
   display: flex;
   align-items: center;
+
 }
 .footer img {
   height: 1.5rem;
