@@ -25,7 +25,7 @@ html {
   align-items: center;
   }
 
-.nav a {
+.nav  {
   text-decoration: none;
   color: white;
   padding-right: 2rem;
@@ -52,7 +52,7 @@ html {
   line-height: 1.2;
   text-transform: uppercase;
   margin-top: 10rem;
-margin-left: 23rem;
+  margin-left: 23rem;
 }
 .products {
   height: 8rem;
@@ -122,4 +122,89 @@ line-height: 1.4;
   height: 1.5rem;
   width: auto;
   padding-right: 1rem;
+}
+@media only screen and (max-width:1024px) {
+  .navbar {
+    margin-top:0;
+  }
+  .main-banner {
+    width: 960px;
+    height: 22rem;
+  }
+.see h1{
+  margin-top: 5rem;
+  margin-right: 2rem;
+  padding: 0.75rem 4rem;
+  font-size: 1.33rem;
+ }
+}
+
+@media only screen and (max-width:470px) {
+  .main-banner {
+    height: 17rem;
+    width: 100%;
+    background-position: 20%;
+  }
+  .see {
+    margin: 9rem 0 2rem 0;
+  }
+  .see h1 {
+    font-size: 1rem;
+    padding: 1rem 0;
+    width: 470px;
+    margin:0 auto;
+    text-align: center;
+  }
+.products {
+  display: block;
+  margin: 3rem auto;
+  font-size: .77rem;
+  position:relative;
+}
+.images, .paper {
+  display: flex;
+  padding: .77rem 0;
+  flex-direction: column;
+
+}
+
+  }
+.contact {
+  display: block;
+  position: relative;
+
+}
+.mobile-nav  {
+display: block;
+text-align: center;
+}
+nav ul {
+display: none;
+}
+.navbar{
+  width: 90%;
+}
+.container {
+  width: 460px;
+  height: auto;
+}
+.blurb {
+  margin: 2rem 0;
+  font-size: .77rem;
+  width: 100%;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+
+}
+.footer p {
+  display: none;
+}
+.blurb h3 {
+  width: 100%;
+}
+.logo span {
+  display: none;
+}
 }
