@@ -179,11 +179,24 @@ html {
         flex-direction: column;
         justify-content: space-around;
         align-items:center;
-        margin: 0 auto;
+        margin:2rem auto;
+        height: 25rem;
+        width: 100%;
       }
       .images, .paper {
         font-size: .77rem;
         margin: .77rem;
+      }
+      .images p{
+        text-align: center;
+        width: 5rem;
+        margin-top: 1rem;
+      }
+      .paper p{
+        text-align: center;
+        width: 6rem;
+        margin-top: 1rem;
+        line-height: 1.4;
       }
       .mobile-nav  {
         display: inline;
@@ -193,7 +206,7 @@ html {
       }
 
       .blurb {
-        margin: 2rem 0;
+        margin-bottom: 4rem;
         font-size: .77rem;
         width: 100%;
 
